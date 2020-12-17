@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 package com.codenvy.example.java;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -19,5 +20,9 @@ public class AppTest {
     @Test
     public void testApp() {
         assertTrue(true);
+    }
+    @Test
+    public void testApp2() {
+        assertFalse(true);
     }
 }
